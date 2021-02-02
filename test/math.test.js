@@ -12,11 +12,11 @@ describe('sum', () => {
 
 describe('getRandomInt', () => {
   test('should return a number within the expected limits', () => {
-    const randomValue = getRandomInt(3);
+    const randomValue = getRandomInt(5);
     expect(randomValue).toBeGreaterThanOrEqual(0);
     expect(typeof randomValue).toBe('number')
 
-    // This will fail on average every on every 3rd run.
-    expect(randomValue).toBeLessThan(2);
+    // This will fail on average every on every 5th run.
+    expect(randomValue).toBeLessThan(4);
   })
 });
