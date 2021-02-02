@@ -1,0 +1,22 @@
+{
+  "name": "my-test-repo",
+  "version": "1.0.0",
+  "description": "Test repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolaymihaylov/my-test-repo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikolaymihaylov/my-test-repo/issues"
+  },
+  "homepage": "https://github.com/nikolaymihaylov/my-test-repo#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
